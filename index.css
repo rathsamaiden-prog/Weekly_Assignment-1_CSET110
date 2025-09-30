@@ -33,15 +33,36 @@
 }
 
 /*---------BEACON-----------*/
-#beacon{
-    height: 500px;
+#beacon-Wrapper{
+    height: 80vh;
     background-image: url(images/the-beacon.jpg);
     background-size: cover;
+    display: flex;
     justify-content: flex-end;
 }
 #beaconText{
-    outline: solid red 5px;
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 44%;
     height: 100%;
-    
+    margin: 5%;
+}
+#beaconText h2{
+    background-color: white;
+    width: fit-content;
+    padding: 2% 4%;
+    margin-bottom: 20px;
+}
+#beaconText p{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 2% 4%;
+    margin: 5px 0;
+}
+#readMoreBtn p{
+    background-color: rgb(47, 101, 211);
+    font-size: 10pt;
+    padding: 20px 25px;
+    margin-top: 20px;
 }
