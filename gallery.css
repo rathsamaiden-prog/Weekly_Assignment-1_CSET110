@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*--------NAV BAR---------*/
+.navBar-Wrapper{
+    outline: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3% 0;
+}
+#logoWrapper img{
+    padding: 25px 25px;
+}
+#directoryWrapper{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: auto;
+}
+#directoryWrapper a{
+    text-decoration: none;
+    color: black;
+    width: 20%;
+    padding: 20px 5px;
+    text-align: center;
+}
+#gallery{
+    color: darkcyan;
+}
+#directoryWrapper a:hover{
+    color: darkcyan;
+}
+/*-------GALLERY--------*/
