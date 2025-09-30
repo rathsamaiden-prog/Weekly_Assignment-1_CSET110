@@ -26,7 +26,9 @@
     width: 20%;
     padding: 20px 5px;
     text-align: center;
-    font-style: bold;
+}
+#home{
+    color: darkcyan;
 }
 #directoryWrapper a:hover{
     color: darkcyan;
@@ -81,4 +83,24 @@
 .miniGall h3{
     text-align: center;
     margin: 20px;
+}
+/*--------FOOTER------------*/
+footer{
+    display: flex;
+    background-color: rgb(23, 22, 22);
+    height: 15vh;
+}
+#copyright{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    color: white;
+}
+#socials{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+#socials img{
+    padding: 0 5px;
 }
