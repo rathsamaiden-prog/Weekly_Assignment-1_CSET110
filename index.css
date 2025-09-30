@@ -66,3 +66,19 @@
     padding: 20px 25px;
     margin-top: 20px;
 }
+/*---------MINI GALLERY----------*/
+#miniGallery{
+    display: flex;
+    justify-content: center;
+}
+.miniGall{
+    margin-top: 35px;
+    padding: 0px 10px;
+}
+.miniGall img{
+    border: 2px solid black;
+}
+.miniGall h3{
+    text-align: center;
+    margin: 20px;
+}
