@@ -27,7 +27,7 @@
     padding: 20px 25px;
     text-align: center;
 }
-#gallery{
+#galleryLink{
     color: darkcyan;
 }
 #directoryWrapper a:hover{
@@ -58,4 +58,24 @@
     margin: 10px;
     border: 2px solid black;
     opacity: .8;
+}
+/*--------FOOTER------------*/
+footer{
+    display: flex;
+    background-color: rgb(23, 22, 22);
+    height: 15vh;
+}
+#copyright{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    color: white;
+}
+#socials{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+#socials img{
+    padding: 0 5px;
 }
