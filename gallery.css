@@ -5,7 +5,6 @@
 }
 /*--------NAV BAR---------*/
 .navBar-Wrapper{
-    outline: solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,8 +23,8 @@
 #directoryWrapper a{
     text-decoration: none;
     color: black;
-    width: 20%;
-    padding: 20px 5px;
+    width: fit-content;
+    padding: 20px 25px;
     text-align: center;
 }
 #gallery{
@@ -35,3 +34,28 @@
     color: darkcyan;
 }
 /*-------GALLERY--------*/
+#galleryWrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#galleryWrapper h1{
+    outline: solid;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 10px 20px;
+}
+#gallery{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+#gallery img{
+    width: 25%;
+    margin: 10px;
+    border: 2px solid black;
+    opacity: .8;
+}
