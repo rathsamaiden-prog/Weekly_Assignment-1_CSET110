@@ -27,62 +27,37 @@
     padding: 20px 25px;
     text-align: center;
 }
-#homeLink{
+#galleryLink{
     color: darkcyan;
 }
 #directoryWrapper a:hover{
     color: darkcyan;
 }
-
-/*---------BEACON-----------*/
-#beacon-Wrapper{
-    height: 80vh;
-    background-image: url(images/the-beacon.jpg);
-    background-size: cover;
+/*-------GALLERY--------*/
+#galleryWrapper{
     display: flex;
-    justify-content: flex-end;
-}
-#beaconText{
-    display: flex;
+    align-items: center;
     flex-direction: column;
-    width: 44%;
-    height: 100%;
-    margin: 5%;
 }
-#beaconText h2{
-    background-color: white;
-    width: fit-content;
-    padding: 2% 4%;
-    margin-bottom: 20px;
-}
-#beaconText p{
+#galleryWrapper h1{
+    outline: solid;
     background-color: black;
     color: white;
     width: fit-content;
-    padding: 2% 4%;
-    margin: 5px 0;
+    padding: 10px 20px;
 }
-#readMoreBtn p{
-    background-color: rgb(47, 101, 211);
-    font-size: 10pt;
-    padding: 20px 25px;
-    margin-top: 20px;
-}
-/*---------MINI GALLERY----------*/
-#miniGallery{
+#gallery{
     display: flex;
     justify-content: center;
-}
-.miniGall{
-    margin-top: 35px;
-    padding: 0px 10px;
-}
-.miniGall img{
-    border: 2px solid black;
-}
-.miniGall h3{
-    text-align: center;
+    width: 75%;
+    flex-wrap: wrap;
     margin: 20px;
+}
+#gallery img{
+    width: 25%;
+    margin: 10px;
+    border: 2px solid black;
+    opacity: .8;
 }
 /*--------FOOTER------------*/
 footer{

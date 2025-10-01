@@ -27,62 +27,44 @@
     padding: 20px 25px;
     text-align: center;
 }
-#homeLink{
+#contactLink{
     color: darkcyan;
 }
 #directoryWrapper a:hover{
     color: darkcyan;
 }
-
-/*---------BEACON-----------*/
-#beacon-Wrapper{
-    height: 80vh;
-    background-image: url(images/the-beacon.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: flex-end;
-}
-#beaconText{
+/*--------CONTACT------------*/
+#contactWrapper{
     display: flex;
     flex-direction: column;
-    width: 44%;
-    height: 100%;
-    margin: 5%;
+    align-items: center;
 }
-#beaconText h2{
-    background-color: white;
-    width: fit-content;
-    padding: 2% 4%;
-    margin-bottom: 20px;
-}
-#beaconText p{
-    background-color: black;
+#header{
     color: white;
-    width: fit-content;
-    padding: 2% 4%;
-    margin: 5px 0;
+    background-color: black;
+    font-size: 22pt;
+    padding: 8px 20px;
+    margin-bottom: 1.5%;
 }
-#readMoreBtn p{
-    background-color: rgb(47, 101, 211);
-    font-size: 10pt;
-    padding: 20px 25px;
-    margin-top: 20px;
-}
-/*---------MINI GALLERY----------*/
-#miniGallery{
-    display: flex;
-    justify-content: center;
-}
-.miniGall{
-    margin-top: 35px;
-    padding: 0px 10px;
-}
-.miniGall img{
+.customerInfo{
     border: 2px solid black;
+    width: 40%;
+    min-height: 50px;
+    padding: 14px 10px 10px 10px; 
+    margin-bottom: 2%;
+    resize: vertical;
+    text-align: center; 
+    line-height: 1.5;
 }
-.miniGall h3{
-    text-align: center;
-    margin: 20px;
+#messageTextBox{
+    height: 150px;
+}
+#sendBtn{
+    color: white;
+    background-color: black;
+    font-size: 12pt;
+    padding: 20px 25px;
+    margin-bottom: 5%;
 }
 /*--------FOOTER------------*/
 footer{

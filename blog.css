@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*--------NAV BAR---------*/
+.navBar-Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3% 0;
+}
+#logoWrapper img{
+    padding: 25px 25px;
+}
+#directoryWrapper{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: auto;
+}
+#directoryWrapper a{
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+    padding: 20px 25px;
+    text-align: center;
+}
+#blogLink{
+    color: darkcyan;
+}
+#directoryWrapper a:hover{
+    color: darkcyan;
+}
+/*--------BLOG CONTENT------------*/
+#blogWrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+#blogWrapper h1{
+    width: fit-content;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    margin-bottom: 2%;
+}
+.blogPost{
+    display: flex;
+    height: 275px;
+    width: 70%;
+    border: 2px solid black;
+    margin-bottom: 1%;
+}
+.blogImg{
+    height: 100%;
+    width: 40%;
+    border-right: 2px solid black;
+}
+#blogImg_1{
+    background-image: url(images/cutting-mustache.jpg);
+    background-size: cover;
+}
+#blogImg_2{
+    background-image: url(images/in-the-country.jpg);
+    background-size: cover;
+}
+#blogImg_3{
+    background-image: url(images/mustache-brothers.jpg);
+    background-size: cover;
+}
+.blogContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.blogContent b{
+    padding: 10% 0 5% 0;
+    font-size: 20pt;
+}
+.blogContent p{
+    width: 80%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.readBtn{
+    font-size: 18pt;
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    padding: 5px 30px;
+}
+.readBtn:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+/*--------FOOTER------------*/
+footer{
+    display: flex;
+    background-color: rgb(23, 22, 22);
+    height: 15vh;
+}
+#copyright{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    color: white;
+}
+#socials{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+#socials img{
+    padding: 0 5px;
+}
